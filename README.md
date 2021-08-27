@@ -79,7 +79,7 @@ Packages and Softwares that are required to be installed:
               date = sd.strftime('%Y%m%d')
               host = '127.0.0.1'
               user = 'root'
-              password = '14july1998$'
+              password = ' '
               database = 'data'
               rega = 'Regression Model'
               empa = 'Empirical Model'
@@ -109,7 +109,7 @@ Packages and Softwares that are required to be installed:
 
               engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}".format(host=host, db=database, user=user, pw=password))
               sql.execute("drop table if exists analystdata", engine)
-              con = py.connect(host='127.0.0.1', port=3306, user='root', passwd='14july1998$', db='data')
+              con = py.connect(host='127.0.0.1', port=3306, user='root', passwd=' ', db='data')
               cur=con.cursor()
               path5='E:/dataset/logs'
               fil=glob.glob(path5+"/*.log")
