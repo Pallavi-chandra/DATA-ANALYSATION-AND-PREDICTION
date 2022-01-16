@@ -1,4 +1,4 @@
-# Rajat Tribe leader
+# Pallavi Tribe leader
 
 Data extraction and visualization:
 
